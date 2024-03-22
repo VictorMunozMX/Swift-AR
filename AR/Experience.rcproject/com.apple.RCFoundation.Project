@@ -179,6 +179,244 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "19D59100-743F-4029-BC96-BBA283006C07"
+                                          ],
+                                          "userIdentifier" : "planeWasHit"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "C54FFB0E-CF2E-420F-BA4E-CE93BD712726",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "E4806594-3F56-4795-B87A-260EC3172654",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.cash-register-fx-02\/Cash%20Register%20FX%2002.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "19D59100-743F-4029-BC96-BBA283006C07"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "1B9E93A5-8183-4155-A3F1-947F5D9782B2",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "F40C548C-0ED8-44D7-8306-3FFCCBD4A73D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019608,
+                        0.74509805,
+                        0.9490196,
+                        1
+                      ],
+                      "identifier" : "2B9FBFAD-C65A-40BA-9FE7-708C5124C7D1",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "DetectCollision",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "collidingObjects" : [
+                                    "79264C7B-BF75-4C89-9CBC-F93563AE4804"
+                                  ],
+                                  "tags" : [
+
+                                  ],
+                                  "target" : [
+                                    "19D59100-743F-4029-BC96-BBA283006C07"
+                                  ]
+                                },
+                                "name" : "collision"
+                              },
+                              "identifier" : "F63C8E34-633F-4A08-A568-CA1B758185AF",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "79264C7B-BF75-4C89-9CBC-F93563AE4804"
+                                          ],
+                                          "userIdentifier" : "planeWasHit"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "FABF2E0E-01C3-482B-A010-AE2294CAF8F7",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "89D1FD69-7290-4EF1-86D5-78A5B6942134",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.hammer-fx\/Hammer%20FX.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "79264C7B-BF75-4C89-9CBC-F93563AE4804"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "D67D800D-A233-4D8C-957C-8D2C0889F020",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "832EF6A0-FBFB-4146-915F-07E098BE3E3C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.30980393,
+                        0.5647059,
+                        0.99215686,
+                        1
+                      ],
+                      "identifier" : "7214EE8F-60C2-4766-8F1E-1CAA7D998D27",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "DetectCollision2",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "collidingObjects" : [
+                                    "19D59100-743F-4029-BC96-BBA283006C07"
+                                  ],
+                                  "tags" : [
+
+                                  ],
+                                  "target" : [
+                                    "79264C7B-BF75-4C89-9CBC-F93563AE4804"
+                                  ]
+                                },
+                                "name" : "collision"
+                              },
+                              "identifier" : "0C04C192-AEE7-4E59-8663-8575C87BD4BD",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -198,7 +436,7 @@
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Slide Box"
+                            "value" : "Rocket Toy 1"
                           }
                         ],
                         [
@@ -218,7 +456,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "9C3D751B-FA67-4F6B-9E42-C95ED7F9E066"
+                                  "value" : "04A87D5F-E584-47BC-82E7-A2A98B8F7006"
                                 }
                               ]
                             ]
@@ -226,7 +464,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.SlideBox.e2c751bb-a2d6-45af-a838-df9c83cbdf8d",
+                        "identifier" : "com.apple.rc.af.RocketToy1.8462e0c5-2be6-4d86-85da-eb2ac1a3cc5d",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -242,6 +480,20 @@
                           {
                             "typeName" : "String",
                             "value" : "Orbit"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
                           }
                         ]
                       ]
@@ -346,7 +598,97 @@
                   },
                   "549C0D99-6E92-45D8-97F6-755E74BAA017" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
-                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "BE25AC45-C1CB-437B-8D71-EBE48FB62FC4" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Space Shuttle"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "02C254A2-22BD-4914-92C3-817C7B85F69B"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.SpaceShuttle.5554308e-2cc9-42b0-9f94-0ec5849b5a22",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "79264C7B-BF75-4C89-9CBC-F93563AE4804"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "plane"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0.5,
+                        1
+                      ]
+                    }
+                  }
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -363,21 +705,21 @@
               "title" : "World",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.9996294,
+                  0.9957278,
                   0,
-                  -0.027222319,
+                  -0.092336796,
                   0,
-                  -0.012120775,
-                  0.89540577,
-                  -0.44508597,
+                  -0.039061826,
+                  0.9061138,
+                  -0.42122665,
                   0,
-                  0.024375042,
-                  0.44525096,
-                  0.89507395,
+                  0.083667636,
+                  0.42303398,
+                  0.9022427,
                   0,
-                  0.1469315,
-                  1.2613164,
-                  2.231062,
+                  0.54596204,
+                  1.4668871,
+                  3.2173686,
                   1
                 ],
                 "sceneTransform" : [
