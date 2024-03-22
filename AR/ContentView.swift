@@ -16,7 +16,7 @@ struct ContentView : View {
             ARViewContainer().edgesIgnoringSafeArea(.all)
             
             Button("Click"){
-                worldAnchor?.notifications.orbitRedChair.post()
+                worldAnchor?.notifications.redChair.post()
             }
         }
         
@@ -33,7 +33,7 @@ struct ARViewContainer: UIViewRepresentable {
         worldAnchor = try! Experience.loadWorld()
         
         // Add the box anchor to the scene
-        arView.scene.anchors.append(worldAnchor ?? worldAnchor)
+       // arView.scene.anchors.append(worldAnchor ?? worldAnchor)
         
         return arView
         
