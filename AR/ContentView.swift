@@ -15,11 +15,11 @@ struct ContentView : View {
             //return ARViewContainer().edgesIgnoringSafeArea(.all)
             ARViewContainer().edgesIgnoringSafeArea(.all)
             
-            Button("Click"){
-                worldAnchor?.notifications.redChair.post()
-            }
+            Button(action: {
+                worldAnchor?.notifications.redChair.post()}, label: {
+                    Text("Button")
+                })
         }
-        
     }
 }
 
@@ -33,14 +33,11 @@ struct ARViewContainer: UIViewRepresentable {
         worldAnchor = try! Experience.loadWorld()
         
         // Add the box anchor to the scene
-       // arView.scene.anchors.append(worldAnchor ?? worldAnchor)
+        arView.scene.anchors.append(worldAnchor!)
         
         return arView
-        
     }
-    
     func updateUIView(_ uiView: ARView, context: Context) {}
-    
 }
 
 #if DEBUG
